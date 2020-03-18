@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  main {
+    min-height: 100%;
+    margin: 0 20px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .horizontal {
+    display: flex;
+  }
+
+  .horizontal * {
+    margin-right: 30px;
+  }
+  
+  .horizontal .in,
+  .vertical .in {
+    flex-grow: 1;
+  }
